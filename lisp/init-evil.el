@@ -2,7 +2,7 @@
   "Configure evil leader mode."
   (evil-leader/set-leader ",")
   (evil-leader/set-key
-    "be" 'buffer-menu
+    "be" 'helm-buffers-list
     "S"  'split-window-horizontally
     "V"  'split-window-vertically))
 
