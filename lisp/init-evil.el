@@ -2,8 +2,9 @@
   "Configure evil leader mode."
   (evil-leader/set-leader ",")
   (evil-leader/set-key
-    "S" 'split-window-horizontally
-    "V" 'split-window-vertically))
+    "be" 'buffer-menu
+    "S"  'split-window-horizontally
+    "V"  'split-window-vertically))
 
 (use-package evil
   :ensure t

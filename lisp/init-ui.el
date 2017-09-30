@@ -6,6 +6,9 @@
 ;; turn off startup screen
 (setq inhibit-startup-screen t)
 
+;; no titles
+(setq frame-title-format "")
+
 ;; load theme
 (load-theme 'gruvbox t)
 
