@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(initial-frame-alist (quote ((fullscreen . maximized))))
- '(package-selected-packages (quote (helm use-package evil evil-visual-mark-mode))))
+ '(package-selected-packages (quote (## helm use-package evil evil-visual-mark-mode))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -24,6 +24,7 @@
   (require 'use-package))
 
 ; init
+(require 'diminish)
 (require 'init-evil)
 (require 'init-helm)
 (require 'init-ui)
