@@ -25,9 +25,10 @@
 
 ; init
 (require 'diminish)
+(require 'init-fonts)
+(require 'init-ui)
 (require 'init-evil)
 (require 'init-helm)
-(require 'init-ui)
 
 ; turn off backups
 (defvar backup-dir "~/.emacs.d/backups/")
