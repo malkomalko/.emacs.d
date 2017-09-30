@@ -40,6 +40,7 @@
 (require 'init-ui)
 (require 'init-evil)
 (require 'init-helm)
+(require 'init-undo-tree)
 
 ;; turn off backups
 (defvar backup-dir "~/.emacs.d/backups/")
