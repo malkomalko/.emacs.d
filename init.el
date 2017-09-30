@@ -10,6 +10,13 @@
 
 ;; add config files into load-path
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(let ((files (directory-files-and-attributes "~/.emacs.d/lisp" t)))
+  (dolist (file files)
+    (let ((filename (car file))
+          (dir (nth 1 file)))
+      (when (and dir
+                 (not (string-suffix-p "." filename)))
+        (add-to-list 'load-path (car file))))))
 
 ;; custom
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

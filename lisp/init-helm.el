@@ -2,6 +2,7 @@
   :ensure t
   :commands helm-mode
   :diminish helm-mode
+  :bind (("M-x" . helm-M-x))
   :config
   (helm-mode 1)
   (setq helm-autoresize-mode t)
