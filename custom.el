@@ -6,7 +6,7 @@
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(package-selected-packages
    (quote
-    (gruvbox-theme ## helm use-package evil evil-visual-mark-mode))))
+    (evil-leader gruvbox-theme ## helm use-package evil evil-visual-mark-mode))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
