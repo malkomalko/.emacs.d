@@ -25,6 +25,7 @@
 
 ; init
 (require 'init-evil)
+(require 'init-helm)
 (require 'init-ui)
 
 ; turn off backups
