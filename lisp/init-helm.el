@@ -7,7 +7,11 @@
   :commands helm-mode
   :diminish helm-mode
   :bind (("M-x" . helm-M-x)
-	 ("C-/" . helm-M-x))
+	 ("C-/" . helm-M-x)
+	 :map helm-map
+	 ("C-h" . helm-execute-persistent-action)
+	 ("C-j" . helm-next-line)
+	 ("C-k" . helm-previous-line))
   :config
   (helm-mode 1)
   (setq helm-autoresize-mode t)
