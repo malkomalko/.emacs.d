@@ -1,4 +1,3 @@
-; change font size
 (require 'cl)
 
 (defun mm/font-name-replace-size (font-name new-size)
@@ -28,7 +27,10 @@
   (interactive)
   (mm/increment-default-font-height -10))
 
-(mm/set-frame-font-size 16)
+(setq mm/font-face "Hack-16")
+(set-face-attribute 'default nil :font mm/font-face)
+(set-frame-font mm/font-face nil t)
+
 (bind-key (kbd "s--") 'mm/decrease-default-font-height)
 (bind-key (kbd "s-=") 'mm/increase-default-font-height)
 
