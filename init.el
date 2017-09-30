@@ -41,6 +41,7 @@
 (require 'init-evil)
 (require 'init-helm)
 (require 'init-undo-tree)
+(require 'init-which-key)
 
 ;; turn off backups
 (defvar backup-dir "~/.emacs.d/backups/")
