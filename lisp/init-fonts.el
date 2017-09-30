@@ -28,6 +28,7 @@
   (interactive)
   (mm/increment-default-font-height -10))
 
+(mm/set-frame-font-size 16)
 (bind-key (kbd "s--") 'mm/decrease-default-font-height)
 (bind-key (kbd "s-=") 'mm/increase-default-font-height)
 
