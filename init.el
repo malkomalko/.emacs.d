@@ -24,13 +24,10 @@
   (require 'use-package))
 
 ; init
+(require 'init-evil)
 (require 'init-ui)
 
 ; turn off backups
 (defvar backup-dir "~/.emacs.d/backups/")
 (setq backup-directory-alist (list (cons "." backup-dir)))
 (setq make-backup-files nil)
-
-; evil mode
-(require 'evil)
-(evil-mode t)
