@@ -12,4 +12,7 @@
 ;; load theme
 (load-theme 'gruvbox t)
 
+;; turn on line numbers
+(global-linum-mode t)
+
 (provide 'init-ui)
