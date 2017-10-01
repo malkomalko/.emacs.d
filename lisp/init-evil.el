@@ -4,8 +4,8 @@
   (evil-leader/set-key
     "be" 'helm-buffers-list
     "fa" 'helm-fzf-project-root
-    "S"  'split-window-horizontally
-    "V"  'split-window-vertically))
+    "S"  'split-window-vertically
+    "V"  'split-window-horizontally))
 
 (use-package evil
   :ensure t
