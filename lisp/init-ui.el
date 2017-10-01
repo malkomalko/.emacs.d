@@ -21,4 +21,6 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 (setq confirm-nonexistent-file-or-buffer nil)
 
+(show-paren-mode 1)
+
 (provide 'init-ui)
