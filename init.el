@@ -41,6 +41,7 @@
 (require 'init-ui)
 (require 'init-evil)
 (require 'init-helm)
+(require 'init-powerline)
 (require 'init-undo-tree)
 (require 'init-which-key)
 
