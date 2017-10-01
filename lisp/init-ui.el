@@ -15,4 +15,8 @@
 ;; turn on line numbers
 (global-linum-mode t)
 
+;; disable prompts
+(fset 'yes-or-no-p 'y-or-n-p)
+(setq confirm-nonexistent-file-or-buffer nil)
+
 (provide 'init-ui)
