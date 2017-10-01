@@ -4,7 +4,9 @@
 (tool-bar-mode -1)
 
 ;; turn off startup screen
-(setq inhibit-startup-screen t)
+(setq inhibit-splash-screen t
+      inhibit-startup-echo-area-message t
+      inhibit-startup-message t)
 
 ;; no titles
 (setq frame-title-format "")
