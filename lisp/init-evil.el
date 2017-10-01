@@ -3,6 +3,7 @@
   (evil-leader/set-leader ",")
   (evil-leader/set-key
     "be" 'helm-buffers-list
+    "fa" 'helm-fzf-project-root
     "S"  'split-window-horizontally
     "V"  'split-window-vertically))
 

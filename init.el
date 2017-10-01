@@ -36,6 +36,7 @@
 
 ;; init
 (require 'diminish)
+(require 'init-utils)
 (require 'init-fonts)
 (require 'init-ui)
 (require 'init-evil)
